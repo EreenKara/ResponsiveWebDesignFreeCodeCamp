@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="title">Eren's Survey Form</h1>
+        <p id="description">Eren's Survey Form to Collect User Information About How Much They Love Eren</p><p>( I know they can't describe with words but i let them try )</p>
+      </header>
+      <form id="survey-form" method="post" action="">
+        <fieldset class="form-part">
+          <label id="name-label" for="name">Name<input id="name" name="name" type="text" placeholder="Enter your name" required></label>
+        </fieldset> 
+        <fieldset class="form-part">
+          <label id="email-label" for="email">Email<input id="email" name="email" type="email" placeholder="Enter your email" required></label>
+        </fieldset>
+        <fieldset>
+          <label id="number-label" for="number">Age<input id="number" name="number" type="number" min="13" max="120" placeholder="Enter your age"></label>
+        </fieldset>
+        
+        <fieldset>
+          <label>Who are you to Eren?</label>
+            <label for="radio-button-1"><input class="in-line" id="radio-button-1" type="radio" name="radio-button" value="his-lover">His lover</label>
+            <label for="radio-button-2"><input class="in-line" id="radio-button-2" type="radio" name="radio-button" value="no-one-to-a-one" checked>I am no one to Eren but i want to be a one.</label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">How much do you love Eren?
+            <select id="dropdown" name="dropdown">
+              <option disabled selected value="">My love to Eren ...</option>
+              <option value="1">I love Eren</option>
+              <option value="2">My passion cant be described by the word love </option>
+              <option value="3">Eren is that why i still alive</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset><label>What do you want to do with Eren</label>
+          <label><input id="checkbox-1" class="in-line" name="checkboxes" type="checkbox" value="1">Nothing just hanging around</label>
+          <label><input id="checkbox-2" class="in-line" name="checkboxes" type="checkbox" value="2">Playing games</label>
+          <label><input id="checkbox-3" class="in-line" name="checkboxes" type="checkbox" value="3">Studying</label>
+        </fieldset>
+        <fieldset>
+          <label for="text-area">Do you want to say something to Eren?
+            <textarea id="text-area" name="text-area" placeholder="I want to meet with you Eren." rows="5" cols="40"></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <input id="submit" name="submit" value="Submit" type="submit">
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>@Powered by Eren</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    margin: 100px auto;
+    scroll-behavior: smooth;
+  }
+  
+  .parent {
+    width: 500px;
+    height: 1000px;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .child {
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  .one {
+    background-color: powderblue;
+    position: sticky;
+    top: 200px;
+    left:10000px;
+  }
+  
+  .two {
+    background-color: royalblue;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+  }
+  
+  .three {
+    background-color: sienna;
+  }
+  
+  .four {
+    background-color: slateblue;
+  }
+  .parallelogram {
+    margin-top:200px;
+    background: blue;
+    height: 500px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
+  }

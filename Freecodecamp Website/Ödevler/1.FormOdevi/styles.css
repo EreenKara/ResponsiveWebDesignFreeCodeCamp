@@ -1,0 +1,58 @@
+body{
+  color:rgba(255,180,220,1);
+  background-image:URL("https://cdn2.vectorstock.com/i/1000x1000/47/01/love-theme-seamless-background-hearts-seamless-vector-3094701.jpg");
+  background-size:1500px;
+  margin-top:1rem;
+}
+fieldset{
+  border:none;
+  margin:7px 0;
+}
+h1,p{
+  margin-bottom:rem;
+  text-align:center;
+  font-family:arial;
+  color:rgba(255,255,255,1);
+}
+h1{
+  font-size:40px;
+  margin-top:3rem;
+}
+p{
+  font-size:20px;
+}
+label{
+  display:block;
+}
+input,select,textarea{
+  width:100%;
+  margin-top:5px;
+  border-radius:4px;
+  height:40px;
+  padding:0 7;
+}
+.in-line{
+  width:unset;
+  height:unset;
+  margin-right:0.4rem;
+  margin-top:7px;
+}
+form{
+  margin:2rem auto;
+  width:80%;
+  max-width:600px;
+  min-width:450px;
+  background-color:rgba(127,30,50,0.9);
+  border-radius:6px;
+  font-family:arial;
+  padding:1em 1em 2em 1em;
+}
+input[type="submit"]{
+  background-color:rgba(80,180,140,1);
+}
+textarea{
+  height:unset;
+}
+footer{
+  margin-top:20px;
+}
